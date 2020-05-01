@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/data-controller', function () {
+    return view('welcome');
+});
+
+Route::get('/data-javascript', function () {
+    return view('welcome');
+});
