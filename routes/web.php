@@ -17,10 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/data-controller', function () {
-    return view('welcome');
-});
+Route::get('/data-controller', 'ExampleController@data');
 
-Route::get('/data-javascript', function () {
-    return view('welcome');
-});
+Route::get('/data-javascript', 'ExampleController@javascript');
+
+Route::get('/getGraphs', 'ExampleController@getData');

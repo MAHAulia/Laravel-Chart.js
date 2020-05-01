@@ -22,3 +22,24 @@ Chart.js
 Documentation.
 <p><a href="https://laravel.com/">Laravel</a></p>
 <p><a href="https://github.com/chartjs/Chart.js">Chart.js</a></p>
+
+## How to use
+- Clote this repo :
+    - git clone https://github.com/AuliaVailo/Laravel-Chart.js.git
+    atau
+    - download source dari https://github.com/AuliaVailo/Laravel-Chart.js <a href="https://github.com/AuliaVailo/Laravel-Chart.js">download</a>
+
+- Buka direktory melalui command prompt atau terminal
+
+- Install :
+    composer install
+
+- Run Migration
+    - php artisan migrate, don't forget to setting yout .env 
+
+- Add dummy data to database manually
+
+- run server
+    - php artisan serve
+      atau
+    - php -S localhost:8000 -t ./public
